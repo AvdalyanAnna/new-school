@@ -53,15 +53,11 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
-    display: flex;
-    align-items: center;
     text-transform: capitalize;
     color: #009345;
     padding: 56px 0;
     font-family: 'Manrope', sans-serif;
     margin-bottom: 0;
-    text-align: center;
-    justify-content: center;
 }
 
 .page-navigations {
@@ -87,11 +83,10 @@ body {
     margin: 0;
     font-family: 'Manrope';
     font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     text-transform: capitalize;
     color: #2A303E;
