@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/template_styles_new.css">
+    <link rel="stylesheet" href="css/template_styles_new-v2.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<div class="container container-main col-margin">
+    <div class="content">
+
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="/" title="Главная">Главная</a></li>
+                <li><a href="/" title="Главная">Обращения граждан</a></li>
+                <li><span>Написать письмо</span></li>
+            </ul>
+        </div>
+        <div class="page-head">
+            <h1>Написать письмо</h1>
+        </div>
+
+        <div class="page-form__small">
+            Поля, отмеченные *, обязательны для заполнения
+            <br><br>
+            Информация о персональных данных авторов обращений, направленных в электронном виде, хранится и
+            обрабатывается с соблюдением требований российского законодательства о персональных данных.
+        </div>
+        <div class="page-form">
+            <div class="page-block">
+                <div class="page-form__subtitle">В электронной анкете в Вашем обращении укажите</div>
+                <div class="form-radio__buttons">
+                    <div class="form-radio__button">
+                        <input id="form-radio__button-1" type="radio" name="type" checked>
+                        <label for="form-radio__button-1"> кому </label>
+                    </div>
+                    <div class="form-radio__button">
+                        <input id="form-radio__button-2" type="radio" name="type">
+                        <label for="form-radio__button-2"> куда </label>
+                    </div>
+                </div>
+                <div class="form-radio__tab" data-id="form-radio__button-1" style="display:block;">
+                    <div class="page-form__item mt-0">
+                        <div class="page-form__item-content page-form__item-border">
+                            <label for="page-form__item-select" class="page-form__item-label">тема</label>
+                            <select id="page-form__item-select" class="page-form__item-select">
+                                <option>Государственный университет по землеустройству</option>
+                                <option>Государственный университет по землеустройству</option>
+                                <option>Государственный университет по землеустройству</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="page-form__item mb-0">
+                        <div class="page-form__item-content page-form__item-border">
+                            <label for="page-form__item-select-1" class="page-form__item-label">Должность</label>
+                            <select id="page-form__item-select-1" class="page-form__item-select">
+                                <option>Ответственный за работу информационно...</option>
+                                <option>Ответственный за работу информационно...</option>
+                                <option>Ответственный за работу информационно...</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-radio__tab" data-id="form-radio__button-2">
+                    <div class="page-form__item mt-0 mb-0">
+                        <div class="page-form__item-content page-form__item-border">
+                            <label for="page-form__item-select-2" class="page-form__item-label">тема</label>
+                            <select id="page-form__item-select-2" class="page-form__item-select">
+                                <option>Государственный университет по землеустройству</option>
+                                <option>Государственный университет по землеустройству</option>
+                                <option>Государственный университет по землеустройству</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="page-block">
+                <div class="page-form__subtitle">Укажите в именительном падеже Ваши</div>
+                <div class="page-form__item">
+                    <div class="page-form__item-content">
+                        <label for="page-form__item-input_1" class="page-form__item-label">Фамилия</label>
+                        <input type="text" class="page-form__item-input" id="page-form__item-input_1">
+                    </div>
+                </div>
+                <div class="page-form__item">
+                    <div class="page-form__item-content">
+                        <label for="page-form__item-input_2" class="page-form__item-label">Имя</label>
+                        <input type="text" class="page-form__item-input" id="page-form__item-input_2">
+                    </div>
+                </div>
+                <div class="page-form__item">
+                    <div class="page-form__item-content">
+                        <label for="page-form__item-input_3" class="page-form__item-label">Отчество (при
+                            наличии)*</label>
+                        <input type="text" class="page-form__item-input" id="page-form__item-input_3">
+                    </div>
+                </div>
+                <div class="page-form__item">
+                    <div class="page-form__item-content">
+                        <label for="page-form__item-input_4" class="page-form__item-label">Наименование организации
+                            (юридического лица)</label>
+                        <input type="text" class="page-form__item-input" id="page-form__item-input_4">
+                    </div>
+                </div>
+                <div class="page-form__item">
+                    <div class="page-form__item-content">
+                        <label for="page-form__item-input_5" class="page-form__item-label">Укажите адрес электронной
+                            почты для получения ответа или уведомления о переадресации обращения</label>
+                        <input type="text" class="page-form__item-input" id="page-form__item-input_5">
+                    </div>
+                </div>
+                <div class="page-form__item">
+                    <div class="page-form__item-content">
+                        <label for="page-form__item-input_6" class="page-form__item-label">Номер телефона</label>
+                        <input type="text" class="page-form__item-input" id="page-form__item-input_6">
+                    </div>
+                </div>
+            </div>
+            <div class="page-line"></div>
+            <div class="page-form__item">
+                <div class="page-form__item-content">
+                    <label for="page-form__item-file" class="page-form__item-label">Соавторы обращения</label>
+                    <input type="file" class="page-form__item-file" id="page-form__item-file">
+                    <label for="page-form__item-file" class="page-form__item-file__button">добавить Соавторы
+                        обращения</label>
+                </div>
+            </div>
+            <div class="page-line"></div>
+            <div class="page-block">
+                <div class="page-form__subtitle">Текст обращения</div>
+                <div class="page-form__item">
+                    <div class="page-form__item-content">
+                        <p class="page-form__item-text">
+                            В соответствии с частью 1 статьи 7 Федерального закона от 2 мая 2006 года No59-ФЗ «Опорядке
+                            рассмотрения обращений граждан Российской Федерации» гражданин в своем обращении в обяза
+                            <span>Показать весь текст...</span>
+                        </p>
+                        <textarea class="page-form__item-textarea" id="page-form__item-textarea"
+                                  placeholder="изложите суть предложение, заявления или жалобы "></textarea>
+                        <p class="page-form__item-text">
+                            В случае необходимости в подтверждение своих доводов Вы вправе приложить к обращению
+                            необходимые документы и материалы в электронной форме, воспользовавшись функцией
+                            <span>Показать весь текст...</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-form__item">
+                <div class="page-form__item-content mw-100">
+                    <label for="page-form__item-file" class="page-form__item-label fw-bold mw-100">Для приложения к
+                        обращению необходимых документов и материалов в электронной форме нажмите кнопку «Прикрепить
+                        файл(ы)».</label>
+                    <label for="page-form__item-file_1" class="page-form__item-file__button">Прикрепить файлы</label>
+                    <input type="file" class="page-form__item-file" id="page-form__item-file_1">
+                    <div class="page-form__small">Обращаем Ваше внимание, что подтверждением прикрепления файла(ов)
+                        вложения является появление строки с наименованием(ями) выбранного(ых) Вами файла(ов).
+                    </div>
+                </div>
+            </div>
+            <div class="page-line"></div>
+
+            <div class="form-checkbox">
+                <input id="form-checkbox-1" type="checkbox" name="type" checked>
+                <label for="form-checkbox-1" class="form-checkbox__marker">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.00016 16.17L4.83016 12L3.41016 13.41L9.00016 19L21.0002 6.99997L19.5902 5.58997L9.00016 16.17Z"
+                              fill="#009345"/>
+                    </svg>
+                </label>
+                <label for="form-checkbox-1" class="form-checkbox__label"> нажимая на кнопку, я принимаю условия
+                    соглашения. </label>
+            </div>
+
+            <div class="form-buttons">
+                <button>направить письмо</button>
+                <button>создать личный кабинет</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
