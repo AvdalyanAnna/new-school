@@ -6,6 +6,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://www.ubalt.edu/lib/jquery-ui-1.8.5.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ru.js"></script>
+    <script>
+
+        $( function() {
+            $( "#datepicker" ).datepicker($.datepicker.regional[ "ru" ]);
+        } );
+    </script>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/template_styles_new.css">
     <link rel="stylesheet" href="css/template_styles_new-v2.css">
@@ -15,6 +29,23 @@
           rel="stylesheet">
 </head>
 <body>
+<div class="page-sidebar">
+    <div id="datepicker"></div>
+<!--    <div class="page-sidebar_search-form">-->
+<!--        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--            <g clip-path="url(#clip0_108_1551)">-->
+<!--                <path d="M18.2695 18.2534L24.5 24.5M20.7941 12.1471C20.7941 16.9227 16.9227 20.7941 12.1471 20.7941C7.37142 20.7941 3.5 16.9227 3.5 12.1471C3.5 7.37142 7.37142 3.5 12.1471 3.5C16.9227 3.5 20.7941 7.37142 20.7941 12.1471Z" stroke="#2A303E" stroke-opacity="0.8"/>-->
+<!--            </g>-->
+<!--            <defs>-->
+<!--                <clipPath id="clip0_108_1551">-->
+<!--                    <rect width="24" height="24" fill="white"/>-->
+<!--                </clipPath>-->
+<!--            </defs>-->
+<!--        </svg>-->
+<!--        <input type="text" placeholder="поиск по новостям ...">-->
+<!--    </div>-->
+</div>
+
 <div class="container container-main col-margin">
     <div class="content">
 
@@ -165,23 +196,27 @@
                             <div class="page-new__date"> 12 августа 2022 г․</div>
                         </a>
                     </div>
-                        <div class="page-navigation">
-                            <a href="#" class="left-arr"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.09 19.92L8.56997 13.4C7.79997 12.63 7.79997 11.37 8.56997 10.6L15.09 4.07996" stroke="#2A303E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            </a>
-                            <span class="page-navigation-pages">
-                                <a href="#" class="current">1</a>
-                                <a href="#">2</a>
-                                <a href="#">3</a>
-                                <a href="#">4</a>
-                                <a href="#">5</a>
-                            </span>
-                            <a href="#" class="right-arr"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8.90991 19.92L15.4299 13.4C16.1999 12.63 16.1999 11.37 15.4299 10.6L8.90991 4.07996" stroke="#2A303E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            </a>
-                        </div>
+<!--                        <div class="page-navigation">-->
+<!--                            <a href="#" class="left-arr"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                <path d="M15.09 19.92L8.56997 13.4C7.79997 12.63 7.79997 11.37 8.56997 10.6L15.09 4.07996" stroke="#2A303E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>-->
+<!--                            </svg>-->
+<!--                            </a>-->
+<!--                            <span class="page-navigation-pages">-->
+<!--                                <a href="#" class="current">1</a>-->
+<!--                                <a href="#">2</a>-->
+<!--                                <a href="#">3</a>-->
+<!--                                <a href="#">4</a>-->
+<!--                                <a href="#">5</a>-->
+<!--                            </span>-->
+<!--                            <a href="#" class="right-arr"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                <path d="M8.90991 19.92L15.4299 13.4C16.1999 12.63 16.1999 11.37 15.4299 10.6L8.90991 4.07996" stroke="#2A303E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>-->
+<!--                            </svg>-->
+<!--                            </a>-->
+<!--                        </div>-->
+                    <div class="page-more__buttons">
+                        <button class="page-more__button">Показать 50 новостей</button>
+                        <button class="page-more__button">Показать 100 новостей</button>
+                    </div>
                 </div>
             </div>
         </div>
