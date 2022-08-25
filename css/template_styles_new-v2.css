@@ -1235,11 +1235,16 @@ border: none !important;
         font-size: 46px;
         line-height: 100%;
     }
-
+    .page-posts{
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+    }
     .page-post {
         flex-direction: column;
         height: auto;
         gap: 0;
+        min-width: 320px;
     }
 
     .page-post__img {
@@ -1309,6 +1314,19 @@ border: none !important;
         border-right: 0;
         border-bottom: 2px solid #009345;
     }
+    .page-new {
+min-width: 320px;
+    }
+    .page-news {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+    }
+    .page-post__imgs{
+        display: flex;
+        overflow-x: auto;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
