@@ -1065,7 +1065,7 @@ border: none !important;
     text-align: center;
     color: rgba(42, 48, 62, 0.4);
 }
-.page-sidebar{
+.page-sidebar-fix{
     position: fixed;
     left: 0;top: 50%;
     transform: translateY(-50%);
