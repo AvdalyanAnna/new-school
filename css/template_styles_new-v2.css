@@ -13,6 +13,7 @@ body {
 
 .page-main__right {
     max-width: 367px;
+    width: 100%;
 }
 
 .breadcrumb {
@@ -302,6 +303,9 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px 16px;
+}
+.page-news__list{
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .page-new {
