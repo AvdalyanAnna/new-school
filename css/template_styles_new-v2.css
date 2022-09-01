@@ -304,7 +304,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 32px 16px;
 }
-.page-news__list{
+
+.page-news__list {
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -881,13 +882,15 @@ input:disabled ~ .page-form__item-file__button {
 .page-form {
     padding-bottom: 100px;
 }
-.jq-selectbox__trigger-arrow{
+
+.jq-selectbox__trigger-arrow {
     width: 10px;
     height: 10px;
     top: calc(50% - 2px);
     left: auto;
 }
-.jq-selectbox__select{
+
+.jq-selectbox__select {
     max-width: 774px;
     width: 100%;
     font-family: 'Manrope';
@@ -906,21 +909,24 @@ input:disabled ~ .page-form__item-file__button {
     display: flex;
     align-items: center;
 }
-.jq-selectbox__trigger{
+
+.jq-selectbox__trigger {
     right: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .jq-selectbox__select:hover, .jq-selectbox__select:active, .focused .jq-selectbox__select, .dropdown .jq-selectbox__select {
     color: #2A303E;
     background: #FFFFFF;
 }
+
 .focused .jq-selectbox__trigger-arrow, .jq-selectbox:hover .jq-selectbox__trigger-arrow, .jq-selectbox:active .jq-selectbox__trigger-arrow, .dropdown .jq-selectbox__trigger-arrow {
     border-color: #1c1c1c;
 }
 
-.jq-selectbox__dropdown{
+.jq-selectbox__dropdown {
     top: 90px !important;
     bottom: auto !important;
     border-radius: 20px;
@@ -929,7 +935,8 @@ input:disabled ~ .page-form__item-file__button {
     padding: 0;
     overflow: auto;
 }
-.jq-selectbox li{
+
+.jq-selectbox li {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -939,18 +946,21 @@ input:disabled ~ .page-form__item-file__button {
     padding: 24px 32px;
     border-bottom: 2px solid rgba(117, 123, 138, 0.2);
 }
-.jq-selectbox li:nth-last-child(1){
+
+.jq-selectbox li:nth-last-child(1) {
     border-bottom: none;
 }
+
 .jq-selectbox li.selected, .jq-selectbox li:hover {
     color: #2A303E;
     background: rgba(180, 243, 209, 0.4);
 }
-.form-radio__tab{
+
+.form-radio__tab {
     display: none;
 }
 
-.page-more__buttons{
+.page-more__buttons {
     max-width: 670px;
     width: 100%;
     display: flex;
@@ -960,7 +970,8 @@ input:disabled ~ .page-form__item-file__button {
     overflow: hidden;
     margin: 80px 0;
 }
-.page-more__button{
+
+.page-more__button {
     width: 50%;
     background: #FFFFFF;
     font-weight: 500;
@@ -972,29 +983,30 @@ input:disabled ~ .page-form__item-file__button {
     border: none;
     cursor: pointer;
 }
-.page-more__button:nth-child(1){
+
+.page-more__button:nth-child(1) {
     border-right: 2px solid #009345;
 }
 
-.page-more__button:hover{
+.page-more__button:hover {
     background: rgba(180, 243, 209, 0.4);
 }
 
-.ui-datepicker{
+.ui-datepicker {
     padding: 0;
 }
 
-.ui-widget-header{
+.ui-widget-header {
     background: #009345;
     box-shadow: 0px 3.09038px 46.3557px rgba(0, 0, 0, 0.07);
-    border-radius: 10px 10px 0  0 ;
+    border-radius: 10px 10px 0 0;
     height: 61px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.ui-datepicker-title{
+.ui-datepicker-title {
     font-family: 'Manrope';
     font-weight: 600;
     font-size: 16px;
@@ -1005,12 +1017,15 @@ input:disabled ~ .page-form__item-file__button {
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.ui-datepicker .ui-datepicker-title{
+
+.ui-datepicker .ui-datepicker-title {
     margin: 0 auto;
 }
 
-.ui-datepicker .ui-datepicker-next{}
-.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+.ui-datepicker .ui-datepicker-next {
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
     top: 50%;
     transform: translateY(-50%);
     width: 24px;
@@ -1020,25 +1035,31 @@ input:disabled ~ .page-form__item-file__button {
     background-position: center center;
     cursor: pointer;
 }
-.ui-datepicker .ui-datepicker-prev{
+
+.ui-datepicker .ui-datepicker-prev {
     left: 19px;
 }
-.ui-datepicker .ui-datepicker-next{
+
+.ui-datepicker .ui-datepicker-next {
     transform: translateY(-50%) rotate(180deg);
     right: 19px;
 }
-.ui-datepicker .ui-datepicker-prev:hover, .ui-datepicker .ui-datepicker-next:hover{
-border: none !important;
+
+.ui-datepicker .ui-datepicker-prev:hover, .ui-datepicker .ui-datepicker-next:hover {
+    border: none !important;
     background-color: transparent !important;
 }
-.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span{
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
     display: none;
 }
-.ui-datepicker-calendar  thead{
+
+.ui-datepicker-calendar thead {
     background: rgba(117, 123, 138, 0.16);
     border-bottom: 1px solid rgba(117, 123, 138, 0.22);
 }
-.ui-datepicker th{
+
+.ui-datepicker th {
     padding: 0;
     font-family: 'Manrope';
     font-weight: 600;
@@ -1048,19 +1069,23 @@ border: none !important;
     color: #757B8A;
     height: 33px;
 }
-.ui-datepicker td{
+
+.ui-datepicker td {
     border: 0.2px solid #CFD1D6;
     text-align: center;
     height: 38px;
     padding: 0;
 }
-.ui-datepicker table{
+
+.ui-datepicker table {
     margin: 0;
 }
-.ui-widget.ui-widget-content{
+
+.ui-widget.ui-widget-content {
     border: none;
 }
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
     background: rgba(217, 217, 217, 0.1);
     border: none;
     font-weight: 500;
@@ -1069,15 +1094,19 @@ border: none !important;
     text-align: center;
     color: rgba(42, 48, 62, 0.4);
 }
-.page-sidebar-fix{
+
+.page-sidebar-fix {
     position: fixed;
-    left: 0;top: 50%;
+    left: 0;
+    top: 50%;
     transform: translateY(-50%);
     z-index: 9;
 }
-.page-sidebar-fix__btn{
+
+.page-sidebar-fix__btn {
     position: fixed;
-    left: 0;top: 20%;
+    left: 0;
+    top: 20%;
     transform: translateY(-50%);
     z-index: 9;
     box-shadow: 0px 5px 50px rgba(0, 67, 101, 0.08);
@@ -1087,7 +1116,8 @@ border: none !important;
     border-radius: 0 15px 15px 0;
     margin-bottom: 20px;
 }
-.page-sidebar_search-form{
+
+.page-sidebar_search-form {
     background: #FFFFFF;
     box-shadow: 0px 3.2916px 49.374px rgba(0, 0, 0, 0.07);
     border-radius: 30px;
@@ -1097,20 +1127,25 @@ border: none !important;
     align-items: center;
     margin-top: 40px;
 }
-.page-sidebar-fix__inner{
+
+.page-sidebar-fix__inner {
     display: none;
 }
-.page-sidebar-fix__btn svg{
+
+.page-sidebar-fix__btn svg {
     display: none;
 }
-.page-sidebar-fix__btn svg.show{
+
+.page-sidebar-fix__btn svg.show {
     display: block;
 }
-.page-sidebar_search-form svg{
+
+.page-sidebar_search-form svg {
     position: absolute;
     left: 35px;
 }
-.page-sidebar_search-form input{
+
+.page-sidebar_search-form input {
     border: none;
     outline: none;
     width: 100%;
@@ -1118,6 +1153,7 @@ border: none !important;
 
 
 }
+
 @media (min-width: 576px) {
     .container, .container-sm {
         max-width: 540px !important;
@@ -1215,6 +1251,14 @@ border: none !important;
 
 
 @media screen and (max-width: 991px) {
+    .page-navigation__list {
+        flex-wrap: nowrap;
+        justify-content: start;
+        gap: 32px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
     .page-news {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1252,16 +1296,27 @@ border: none !important;
 
 }
 
+.desktop-none {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
-    .page-more__buttons{
+    .page-more__buttons {
         flex-direction: column;
         gap: 15px;
+        display: none;
     }
-    .page-more__button{
+
+    .desktop-none {
+        display: flex;
+    }
+
+    .page-more__button {
         border: 2px solid #009345;
         width: 100%;
         border-radius: 20px;
     }
+
     .page-news {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1279,14 +1334,25 @@ border: none !important;
     }
 
     .page-head h1 {
-        font-size: 46px;
+        font-size: 24px;
         line-height: 100%;
+        text-align: center;
     }
-    .page-posts{
+
+    .breadcrumb {
+        display: none;
+    }
+
+    .page-head {
+        border: none;
+    }
+
+    .page-posts {
         display: flex;
         gap: 20px;
         overflow-x: auto;
     }
+
     .page-post {
         flex-direction: column;
         height: auto;
@@ -1303,11 +1369,11 @@ border: none !important;
     }
 
     .page-navigation.page-navigation__new {
-        gap: 0;
+        justify-content: space-between;
     }
 
     .page-navigation.page-navigation__new a {
-        font-size: 0;
+        font-size: 10px;
     }
 
     .page-post__title-big {
@@ -1325,67 +1391,254 @@ border: none !important;
         line-height: 24px;
     }
 
-    .page-form__item-border .page-form__item-select,
-    .page-form__item-label,
-    .form-radio__button label,
-    .page-form__subtitle{
-        font-size: 20px;
+    .form-radio__buttons {
+        width: 100%;
     }
-    .form-radio__button label{
+
+    .form-radio__button {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .form-radio__button label {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .page-form__item-border .page-form__item-select,
+    .form-radio__button label,
+    .page-form__subtitle {
+        font-size: 16px;
+    }
+
+    .form-radio__button label {
         padding: 20px 36px;
     }
+
     .page-form__item-border {
-        padding: 0;
-        border: none;
-        filter: none;
+        padding: 20px 16px;
+        /*border: none;*/
+        /*filter: none;*/
         border-radius: 20px;
-        margin-bottom: 32px;
+        margin-bottom: 20px;
     }
-    .page-form__item-label{
-        margin-bottom: 12px;
+
+    .page-form__item-label {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 13px;
     }
-    .page-form__item-border .page-form__item-select{
-        height: 64px;
-        padding: 12px 16px;
+
+    .jq-selectbox__select {
+        position: relative;
+        padding: 8px 50px 8px 16px;
+        font-size: 14px;
+        height: 48px;
     }
-    .form-buttons{
+    .jq-selectbox__dropdown {
+        top: 52px !important;
+    }
+
+
+    .jq-selectbox li {
+        font-size: 14px;
+        line-height: 100%;
+        padding: 16px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .page-form__item-border .page-form__item-select {
+        height: auto;
+        padding: 0;
+    }
+    .page-form__item-input{
+        height: 48px;
+        padding: 16px;
+        border-radius: 10px;    }
+    .page-form__item-file__button{
+        font-size: 16px;
+        line-height: 1;
+    }
+    .form-buttons {
         flex-direction: column;
         height: auto;
     }
-    .form-buttons button{
+
+    .form-buttons button {
         width: 100%;
         height: 56px;
 
     }
-    .form-buttons button:nth-child(1){
+
+    .form-buttons button:nth-child(1) {
         border-right: 0;
         border-bottom: 2px solid #009345;
     }
+
     .page-new {
-min-width: 320px;
+        /*min-width: 320px;*/
+        width: 100%;
+        border-bottom: 1px solid rgba(117, 123, 138, 0.4);
     }
+
+    .page-new:nth-last-child(1) {
+        border-bottom: none;
+    }
+
     .page-news {
         display: flex;
+        flex-direction: column;
         gap: 20px;
-        overflow-x: auto;
+        /*overflow-x: auto;*/
     }
-    .page-post__imgs{
+
+    .page-post__imgs {
         display: flex;
         overflow-x: auto;
     }
-    .page-sidebar-fix__btn{
+
+    .page-sidebar-fix__btn {
         top: 10%;
+    }
+
+    .page-form__small {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .page-block {
+        padding: 24px 16px;
+        margin-bottom: 30px;
+    }
+    .page-form__item-text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .form-checkbox__marker{
+        width: 24px;
+        height: 24px;
+    }
+    .page-form__item-file__button{
+        margin-bottom: 20px;
+    }
+    .page-form__item-textarea{
+        font-size: 14px;
+        line-height: 18px;
+        border-radius: 10px;
+        height: 290px;
+        padding: 24px 16px;
     }
 }
 
-@media screen and (max-width: 479px) {
-    .page-block {
-        padding: 24px;
-    }
+.page-new__mobile {
+    display: none;
+}
 
+@media screen and (max-width: 479px) {
+    /*.page-block {*/
+    /*    padding: 24px;*/
+    /*}*/
     .page-form__item,
     .form-radio__buttons {
         margin: 24px 0;
     }
 
+    .page-new__mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-new__desc {
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #2A303E;
+    }
+
+    .page-new__title {
+        margin: 12px 0 16px;
+    }
+
+    .green {
+        color: #009345;
+    }
+
+    .page-new__mob-tags {
+        display: flex;
+        gap: 13px;
+        margin: 22px 0;
+    }
+
+    .page-new__mob-tag {
+        padding: 6px 13px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #009345;
+        border: 0.5px solid #009345;
+        border-radius: 10px;
+    }
+
+    .page-new__mobile-bottom {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #999999;
+        margin-bottom: 24px;
+    }
+
+    .page-new__title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .page-new__mobile-bottom-eye {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .page-new__date {
+        display: none;
+    }
+
+    .page-navigation-pages {
+        margin: 40px 0;
+    }
+
+    .page-post__imgs img {
+        max-width: 164px;
+        height: 141px;
+        object-fit: cover;
+    }
+
+    .page-main__right {
+        display: none;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .page-line {
+        display: none;
+    }
 }
